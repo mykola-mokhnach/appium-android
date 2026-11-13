@@ -269,9 +269,5 @@ publishing {
                 licenses { license { name = "EPL-2.0"; url = "https://www.eclipse.org/legal/epl-2.0/" } }
             }
         }
-        create<MavenPublication>("second") {
-            artifactId = "xpath2-processor-extra"
-            artifact(tasks.named("sourcesJar"))
-        }
     }
 }

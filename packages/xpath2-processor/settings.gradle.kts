@@ -4,3 +4,5 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "xpath2-processor"
+
+include(":bom")
